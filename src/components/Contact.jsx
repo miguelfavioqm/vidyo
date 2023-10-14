@@ -37,26 +37,26 @@ const Contact = () => {
               <li>
                 <input
                   type="text"
-                  className="w-full border-b-2 border-red-600"
+                  className="w-full border-b-2 border-red-600 outline-none"
                 />
               </li>
               <li>
                 <input
                   type="email"
-                  className="w-full border-b-2 border-red-600"
+                  className="w-full border-b-2 border-red-600 outline-none"
                 />
               </li>
               <li>
                 <input
                   type="text"
-                  className="w-full border-b-2 border-red-600"
+                  className="w-full border-b-2 border-red-600 outline-none"
                 />
               </li>
               <li>
                 <textarea
                   name=""
                   id=""
-                  className="w-full resize-none h-10 border-b-2 border-red-600"
+                  className="w-full resize-none h-10 border-b-2 border-red-600 outline-none"
                 ></textarea>
               </li>
             </ul>

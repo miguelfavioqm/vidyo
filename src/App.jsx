@@ -8,6 +8,7 @@ import NavBar from "./components/NavBar";
 
 import CountUp from "./components/CountUp";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +21,7 @@ function App() {
       <ProductsContainer />
       <NavBar />
       <Contact />
+      <Footer />
     </>
   );
 }
