@@ -28,7 +28,7 @@ const Product = () => {
             className=" p-2 text-sm text-white font-bold rounded-lg w-full flex items-center justify-center"
           >
             <Lottie
-              className="bg-red-500 rounded-full h-10 w-10"
+              className="bg-red-600 rounded-full h-10 w-10"
               animationData={groovyWalkAnimation}
               loop={true}
             />
