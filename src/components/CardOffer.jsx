@@ -14,9 +14,10 @@ const CardOffer = () => {
         </a>
       </div>
       <img
-        src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/08/02/15963629671512.png"
+        // tamaño de imagen 1920x600
+        src="https://wallpaperaccess.com/full/2461288.jpg"
         alt=""
-        className="w-full rounded-lg"
+        className="w-full rounded-lg h-full"
       />
     </div>
   );

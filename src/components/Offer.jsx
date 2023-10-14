@@ -4,12 +4,12 @@ import CardOffer from "./CardOffer";
 const Offer = () => {
   return (
     <section className="container-md mt-2 md:flex items-center justify-between ">
-      <h3 className="md:text-2xl text-center mb-2">
+      <h3 className="md:text-2xl text-center mb-2 font-semibold">
         EXPLORA NUESTROS PRODUCTOS
       </h3>
       <div
         id="carouselExampleAutoplaying"
-        className="carousel slide md:max-w-2xl"
+        className="carousel slide md:max-w-xl"
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">

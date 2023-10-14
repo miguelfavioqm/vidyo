@@ -10,11 +10,11 @@ const Product = () => {
     stars.push(<AiOutlineStar key={i} className="text-yellow-500 w-min" />);
   }
   return (
-    <div className="text-black h-80 p-3  rounded-lg flex items-center justify-center">
+    <div className=" h-80 p-3  rounded-lg flex items-center justify-center">
       <img
         src="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456"
         alt=""
-        className="absolute top-0 -z-10"
+        className="absolute top-0 -z-10 rounded-lg h-full w-full"
       />
       <div className="w-3/4 flex items-center gap-4">
         <div className="bg-red-950/50 text-white p-2 rounded-lg">

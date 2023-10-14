@@ -1,5 +1,7 @@
 import React from "react";
-
+import { AiFillPlayCircle, AiOutlineLogin } from "react-icons/ai";
+import { MdCollectionsBookmark } from "react-icons/md";
+import { RiLoginCircleFill } from "react-icons/ri";
 const NavBar = () => {
   return (
     <section className="flex items-center justify-center mx-2 my-2">
@@ -9,15 +11,15 @@ const NavBar = () => {
         </a>
         <div className="h-4 w-[2px] bg-slate-300 rounded-lg"></div>
         <a className="text-white" href="#">
-          VIDEOS
+          <AiFillPlayCircle className="text-lg" />
         </a>
         <div className="h-4 w-[2px] bg-slate-300 rounded-lg"></div>
         <a className="text-white" href="#">
-          FAVORITOS
+          <MdCollectionsBookmark className="text-lg" />
         </a>
         <div className="h-4 w-[2px] bg-slate-300 rounded-lg"></div>
         <a className="text-white" href="#">
-          LOGIN
+          <RiLoginCircleFill className="text-lg" />
         </a>
       </div>
     </section>
