@@ -14,13 +14,40 @@ const Offer = () => {
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <CardOffer />
+            <CardOffer
+              titulo={"DISNEY +"}
+              precio={7}
+              imagen={
+                "https://www.novacinemas.cr/wp-content/uploads/2023/06/elementos_banner-1.jpg"
+              }
+              link={
+                "https://api.whatsapp.com/send?phone=59164121283&text=HOLA%20QUIERO%20ADQUIRIR%DISNEY%20+"
+              }
+            />
           </div>
           <div className="carousel-item">
-            <CardOffer />
+            <CardOffer
+              titulo={"HBO MAX"}
+              precio={7}
+              imagen={
+                "https://i0.wp.com/fandompelicula.com/wp-content/uploads/2020/07/all6-1-1.jpg?resize=1920%2C600&ssl=1"
+              }
+              link={
+                "https://api.whatsapp.com/send?phone=59164121283&text=HOLA%20QUIERO%20ADQUIRIR%HBO%20MAX"
+              }
+            />
           </div>
           <div className="carousel-item">
-            <CardOffer />
+            <CardOffer
+              titulo={"NETFLIX"}
+              precio={19}
+              imagen={
+                "https://www.cinegeek.com.mx/wp-content/uploads/2020/11/Narcos-MExico-1-1920x600.jpg"
+              }
+              link={
+                "https://api.whatsapp.com/send?phone=59164121283&text=HOLA%20QUIERO%20ADQUIRIR%NETLFIX"
+              }
+            />
           </div>
         </div>
         <button

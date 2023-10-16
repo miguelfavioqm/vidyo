@@ -22,10 +22,16 @@ const Footer = () => {
         <div className="md:w-2/6 flex flex-col items-center justify-center m-2 gap-3">
           <h3>NUESTRAS REDES</h3>
           <div className="flex w-full justify-around md:text-2xl">
-            <a href="#" className="hover:animate-bounce text-white">
+            <a
+              href="https://www.facebook.com/VidyoOficial"
+              className="hover:animate-bounce text-white"
+            >
               <BsFacebook />
             </a>
-            <a href="#" className="hover:animate-bounce text-white">
+            <a
+              href="https://api.whatsapp.com/send?phone=59164121283&text=HOLA%20QUIERO%20MAS%20INFORMACION%20DE%20LAS%20PLATAFORMAS"
+              className="hover:animate-bounce text-white"
+            >
               <IoLogoWhatsapp />
             </a>
             <a href="#" className="hover:animate-bounce text-white">

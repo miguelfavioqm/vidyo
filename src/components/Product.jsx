@@ -1,31 +1,35 @@
 import React, { useState } from "react";
-import { AiOutlineStar } from "react-icons/ai";
+import { AiFillStar } from "react-icons/ai";
 import Lottie from "lottie-react";
 import groovyWalkAnimation from "../assets/playAnim.json";
 
-const Product = () => {
+const Product = ({ title, desc, nstars = 5, img }) => {
   const [star, setStars] = useState(5);
   const stars = [];
-  for (let i = 0; i < star; i++) {
-    stars.push(<AiOutlineStar key={i} className="text-yellow-500 w-min" />);
+  for (let i = 0; i < nstars; i++) {
+    stars.push(<AiFillStar key={i} className="text-yellow-500 w-min" />);
   }
   return (
     <div className=" h-80 p-3  rounded-lg flex items-center justify-center">
       <img
-        src="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456"
+        src={img}
         alt=""
         className="absolute top-0 -z-10 rounded-lg h-full w-full"
       />
-      <div className="w-3/4 flex items-center gap-4">
+      <div className="h-full flex items-center flex-col justify-around gap-4">
         <div className="bg-red-950/50 text-white p-2 rounded-lg">
-          <h4>Titulo</h4>
-          <p className="text-xs text-justify">Lorem ipsum dolor sit amet</p>
+          <h4 className="text-center">{title}</h4>
+          <p className="text-xs text-center">{desc}</p>
         </div>
         <div>
           <div className="flex my-2">{stars}</div>
           <a
-            href="#"
-            className=" p-2 text-sm text-white font-bold rounded-lg w-full flex items-center justify-center"
+            href={
+              "https://api.whatsapp.com/send?phone=59164121283&text=HOLA%20QUIERO%20ADQUIRIR%20" +
+              title
+            }
+            className=" p-2 text-sm text-white font-bold rounded-lg w-full flex items-center justify-center hover:opacity-80"
+            target="_blank"
           >
             <Lottie
               className="bg-red-600 rounded-full h-10 w-10"

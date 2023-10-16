@@ -101,13 +101,34 @@ const ProductsContainer = ({}) => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <Product />
+            <Product
+              title={"SPOTIFY"}
+              desc={"20 Bs. x 2 meses"}
+              nstars={5}
+              img={
+                "https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/folder_920_201707260845-1.png"
+              }
+            />
           </div>
           <div className="carousel-item">
-            <Product />
+            <Product
+              title={"CRUNCHYROLL"}
+              desc={"10 Bs."}
+              nstars={5}
+              img={
+                "https://images.squarespace-cdn.com/content/v1/51a92ee2e4b07ac5e8bc00b6/1609360558166-9SVO03DA96RG665VNGPJ/crunchyroll.jpg?format=2500w"
+              }
+            />
           </div>
           <div className="carousel-item">
-            <Product />
+            <Product
+              title={"MAGIS TV"}
+              desc={"23 Bs. Cuenta Personal"}
+              nstars={4}
+              img={
+                "https://images.squarespace-cdn.com/content/v1/63d000c24f3e050f0826b466/63378a80-62b0-4c5b-8c7c-e832a97b63ed/magistv+vectorizado.png"
+              }
+            />
           </div>
         </div>
         <button

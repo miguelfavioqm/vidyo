@@ -15,7 +15,8 @@ const Contact = () => {
       </div>
       <div className="mt-2 md:!mt-0 md:w-1/2 rounded-lg border-2 border-red-600/10 shadow-md shadow-stone-500 p-2 h-60">
         <form
-          action=""
+          action="https://getform.io/f/84b8bf82-382e-45aa-a2b0-a4cb6f82e731"
+          method="POST"
           className="flex flex-col h-full items-center justify-between"
         >
           <div className="flex w-full items-center justify-center">
@@ -38,23 +39,29 @@ const Contact = () => {
                 <input
                   type="text"
                   className="w-full border-b-2 border-red-600 outline-none"
+                  name="name"
+                  required
                 />
               </li>
               <li>
                 <input
                   type="email"
                   className="w-full border-b-2 border-red-600 outline-none"
+                  name="email"
+                  required
                 />
               </li>
               <li>
                 <input
                   type="text"
                   className="w-full border-b-2 border-red-600 outline-none"
+                  name="number"
+                  required
                 />
               </li>
               <li>
                 <textarea
-                  name=""
+                  name="message"
                   id=""
                   className="w-full resize-none h-10 border-b-2 border-red-600 outline-none"
                 ></textarea>
