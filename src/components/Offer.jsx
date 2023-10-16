@@ -21,7 +21,7 @@ const Offer = () => {
                 "https://www.novacinemas.cr/wp-content/uploads/2023/06/elementos_banner-1.jpg"
               }
               link={
-                "https://api.whatsapp.com/send?phone=59164121283&text=HOLA%20QUIERO%20ADQUIRIR%DISNEY%20+"
+                "https://api.whatsapp.com/send?phone=59176281196&text=HOLA%20QUIERO%20ADQUIRIR%DISNEY%20+"
               }
             />
           </div>
@@ -33,7 +33,7 @@ const Offer = () => {
                 "https://i0.wp.com/fandompelicula.com/wp-content/uploads/2020/07/all6-1-1.jpg?resize=1920%2C600&ssl=1"
               }
               link={
-                "https://api.whatsapp.com/send?phone=59164121283&text=HOLA%20QUIERO%20ADQUIRIR%HBO%20MAX"
+                "https://api.whatsapp.com/send?phone=59176281196&text=HOLA%20QUIERO%20ADQUIRIR%HBO%20MAX"
               }
             />
           </div>
@@ -45,7 +45,7 @@ const Offer = () => {
                 "https://www.cinegeek.com.mx/wp-content/uploads/2020/11/Narcos-MExico-1-1920x600.jpg"
               }
               link={
-                "https://api.whatsapp.com/send?phone=59164121283&text=HOLA%20QUIERO%20ADQUIRIR%NETLFIX"
+                "https://api.whatsapp.com/send?phone=59176281196&text=HOLA%20QUIERO%20ADQUIRIR%NETLFIX"
               }
             />
           </div>

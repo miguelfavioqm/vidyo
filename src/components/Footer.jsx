@@ -29,7 +29,7 @@ const Footer = () => {
               <BsFacebook />
             </a>
             <a
-              href="https://api.whatsapp.com/send?phone=59164121283&text=HOLA%20QUIERO%20MAS%20INFORMACION%20DE%20LAS%20PLATAFORMAS"
+              href="https://api.whatsapp.com/send?phone=59176281196&text=HOLA%20QUIERO%20MAS%20INFORMACION%20DE%20LAS%20PLATAFORMAS"
               className="hover:animate-bounce text-white"
             >
               <IoLogoWhatsapp />

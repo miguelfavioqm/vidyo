@@ -25,7 +25,7 @@ const Product = ({ title, desc, nstars = 5, img }) => {
           <div className="flex my-2">{stars}</div>
           <a
             href={
-              "https://api.whatsapp.com/send?phone=59164121283&text=HOLA%20QUIERO%20ADQUIRIR%20" +
+              "https://api.whatsapp.com/send?phone=59176281196&text=HOLA%20QUIERO%20ADQUIRIR%20" +
               title
             }
             className=" p-2 text-sm text-white font-bold rounded-lg w-full flex items-center justify-center hover:opacity-80"
